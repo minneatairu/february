@@ -1,15 +1,8 @@
 /* Reset any default margins and padding */
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Prevent scrollbars from appearing */
-}
 
-/* Ensure the container and model-viewer take up the full screen */
-.container, model-viewer {
+ model-viewer {
     width: 100vw; /* 100% of the viewport width */
     height: 100vh; /* 100% of the viewport height */
-    display: block; /* Ensure it is a block-level element to fill the width */
 }
 
 /* Optional: Adjust the AR button and progress bar for better visibility */
